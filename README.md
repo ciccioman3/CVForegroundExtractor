@@ -1,14 +1,14 @@
 # CVForegroundExtractor
-This Python script extracts foreground from an image with white (or almost white) background using computer vision (OpenCV).
-
+This [Python](https://www.python.org) script extracts foreground (PNG with transparent background) from an image with white (or almost white) background using computer vision ([OpenCV](https://pypi.org/project/opencv-python/)).
 
 ## Getting Started
 
-This script uses [Mathematical morphology](https://en.wikipedia.org/wiki/Mathematical_morphology) to generate from an image with white-like background an output image of the extracted foreground in PNG with transparency. This allows to have an outimage with less image noise caused by white pixels in the expected foreground.
+This script uses [Mathematical morphology](https://en.wikipedia.org/wiki/Mathematical_morphology) to generate from an image with white-like background an output image of the extracted foreground in PNG with transparency. This allows to have an output image with less image noise caused by white pixels in the expected foreground. 
+(Small noise is going to be removed trying to do not closing holes in the foreground)
 
 ### Prerequisites
 
-You need Python and [OpenCV](https://pypi.org/project/opencv-python/) that can be installed as follows:
+You need [Python](https://www.python.org) and [OpenCV](https://pypi.org/project/opencv-python/) that can be installed as follows:
 
 ```
 pip install opencv-python
@@ -16,7 +16,7 @@ pip install opencv-python
 
 ### Usage
 
-You can run the Python script as it follows
+You can run the [Python](https://www.python.org) script as it follows
 
 ```
 python ForegroundExtractor.py input_image.png
