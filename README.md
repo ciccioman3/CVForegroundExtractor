@@ -26,7 +26,7 @@ The parameter (in the example "input_image.png") is the input image path that is
 
 ## Contributing
 
-Every contributior is welcome. Please submitt pull requests with detailed comments/infos.
+Every contributor is welcome. Please submit pull requests with detailed comments/infos.
 
 
 ## Authors
